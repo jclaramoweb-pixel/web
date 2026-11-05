@@ -1,0 +1,190 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/post/:slug",
+      "destination": "/crystal-river-fishing-reports/",
+      "permanent": true
+    },
+    {
+      "source": "/blog",
+      "destination": "/crystal-river-fishing-reports/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:slug*",
+      "destination": "/crystal-river-fishing-reports/",
+      "permanent": true
+    },
+    {
+      "source": "/fishing-reports",
+      "destination": "/crystal-river-fishing-reports/",
+      "permanent": true
+    },
+    {
+      "source": "/fishing-report",
+      "destination": "/crystal-river-fishing-reports/",
+      "permanent": true
+    },
+    {
+      "source": "/book-online",
+      "destination": "/charters/",
+      "permanent": true
+    },
+    {
+      "source": "/booking",
+      "destination": "/charters/",
+      "permanent": true
+    },
+    {
+      "source": "/services",
+      "destination": "/charters/",
+      "permanent": true
+    },
+    {
+      "source": "/service-page/:slug*",
+      "destination": "/charters/",
+      "permanent": true
+    },
+    {
+      "source": "/inshore-charter",
+      "destination": "/charters/inshore-fishing/",
+      "permanent": true
+    },
+    {
+      "source": "/inshore-fishing",
+      "destination": "/charters/inshore-fishing/",
+      "permanent": true
+    },
+    {
+      "source": "/fly-fishing",
+      "destination": "/charters/fly-fishing/",
+      "permanent": true
+    },
+    {
+      "source": "/backcountry-fly-light-tackle",
+      "destination": "/charters/fly-fishing/",
+      "permanent": true
+    },
+    {
+      "source": "/tarpon",
+      "destination": "/charters/homosassa-tarpon/",
+      "permanent": true
+    },
+    {
+      "source": "/homosassa-tarpon",
+      "destination": "/charters/homosassa-tarpon/",
+      "permanent": true
+    },
+    {
+      "source": "/scalloping",
+      "destination": "/charters/scalloping/",
+      "permanent": true
+    },
+    {
+      "source": "/duck-hunts",
+      "destination": "/charters/duck-hunting/",
+      "permanent": true
+    },
+    {
+      "source": "/duck-hunting",
+      "destination": "/charters/duck-hunting/",
+      "permanent": true
+    },
+    {
+      "source": "/mud-boat",
+      "destination": "/charters/mud-boat-fishing/",
+      "permanent": true
+    },
+    {
+      "source": "/mud-boat-trip",
+      "destination": "/charters/mud-boat-fishing/",
+      "permanent": true
+    },
+    {
+      "source": "/boats",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/our-boats",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/about-us",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/about-capt-tanner",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/gallery",
+      "destination": "/charters/",
+      "permanent": true
+    },
+    {
+      "source": "/things-to-do",
+      "destination": "/where-we-fish/",
+      "permanent": true
+    },
+    {
+      "source": "/lodging",
+      "destination": "/where-we-meet/",
+      "permanent": true
+    },
+    {
+      "source": "/best-times-to-fish",
+      "destination": "/crystal-river-fishing-reports/",
+      "permanent": true
+    },
+    {
+      "source": "/pricing",
+      "destination": "/rates/",
+      "permanent": true
+    },
+    {
+      "source": "/prices",
+      "destination": "/rates/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/img/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ]
+    },
+    {
+      "source": "/(css|js)/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    }
+  ]
+}

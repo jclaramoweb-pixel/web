@@ -1,0 +1,10 @@
+.env
+.env.*
+.mcp.json
+*.pem
+*.key
+.vercel/
+node_modules/
+.DS_Store
+florida-on-the-fly/raw/
+florida-on-the-fly/tools/
