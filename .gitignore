@@ -1,0 +1,8 @@
+.env
+.env.*
+.mcp.json
+*.pem
+*.key
+.vercel/
+node_modules/
+.DS_Store
